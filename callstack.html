@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: firebrick;">
+    <h1 style="color: aqua;"><center>Call Stack</center></h1>
+    <p id="stk" style="color: aquamarine;"></p>
+    <script>
+        function add(l,k,m,n)
+        {
+            return l + k + m + n
+        }
+        function avg(l,k,m,n)
+        {
+            return add(l,k,m,n)/4
+        }
+        let result=avg(25,60,14,8)
+        document.getElementById("stk").innerHTML=result;
+    </script>
+</body>
+</html>
