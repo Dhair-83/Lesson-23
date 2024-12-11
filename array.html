@@ -8,9 +8,15 @@
 <body>
     <h3><center>Arrays</center></h3>
     <p id="ary"></p>
+    <p id="mit"></p>
+    <p id="jn"></p>
+    <p id="phd"></p>
     <script>
-        var mobiles=['Samsung','Google','Xiaomi','Apple']
-        document.getElementById("ary").innerHTML=mobiles[1]
+        var mobiles=['Samsung','Google','Xiaomi','Apple'];
+        document.getElementById("ary").innerHTML=mobiles[1];
+        document.getElementById("mit").innerHTML=mobiles;
+        document.getElementById("jn").innerHTML=mobiles.join("*.*");
+        document.getElementById("phd").innerHTML=mobiles.pop()
     </script>
 </body>
 </html>
